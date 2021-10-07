@@ -1,0 +1,66 @@
+:root {
+  --dark-red: hsl(0deg 100% 8% / 100%);
+  --light-red: hsl(0deg 40% 50% / 100%);
+  --light-red-lighter: hsl(0deg 50% 60% / 100%);
+}
+
+body {
+  background-color: var(--dark-red);
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  color: var(--light-red);
+}
+
+a {
+  color: var(--light-red);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--light-red-lighter);
+}
+
+h1 {
+  font-family: "Exo", sans-serif;
+  font-variant-caps: petite-caps;
+  text-transform: capitalize;
+}
+
+textarea,
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-textarea {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+textarea {
+  background-color: var(--light-red);
+  color: var(--dark-red);
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+}
+textarea:focus {
+  box-shadow: 0px 0px 7px white;
+}
+button {
+  background: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+button:hover {
+  text-shadow: 0px 0px 7px white;
+}
+button:focus {
+  text-shadow: 0px 0px 7px white;
+  outline: none;
+}
