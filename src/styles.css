@@ -19,12 +19,6 @@ a:hover {
   color: var(--light-red-lighter);
 }
 
-h1 {
-  font-family: "Exo", sans-serif;
-  font-variant-caps: petite-caps;
-  text-transform: capitalize;
-}
-
 textarea,
 button {
   padding: 10px;

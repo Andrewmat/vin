@@ -1,8 +1,9 @@
+import {
+  Title
+} from './Greeting.styled'
+
 export default function Greeting() {
   return (
-    <>
-      <h1>Cueilleur de Vin</h1>
-      <h3>Quais opções de vinho estão disponíveis?</h3>
-    </>
+    <Title lang="fr-FR">Cueilleur de Vin</Title>
   );
 }
